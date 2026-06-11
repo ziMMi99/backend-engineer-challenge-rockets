@@ -1,6 +1,83 @@
-@Rockets.Api_HostAddress = http://localhost:5246
+@Rockets_Api_HostAddress = http://localhost:5246
 
-GET {{Rockets.Api_HostAddress}}/weatherforecast/
+GET {{Rockets_Api_HostAddress}}/health-check
 Accept: application/json
 
 ###
+
+POST {{Rockets_Api_HostAddress}}/messages
+Content-Type: application/json
+
+{
+  "metadata": {
+    "channel": "193270a9-c9cf-404a-8f83-838e71d9ae67",
+    "messageNumber": 1,
+    "messageTime": "2022-02-02T19:39:05.86337+01:00",
+    "messageType": "RocketLaunched"
+  },
+  "message": {
+    "type": "Falcon-9",
+    "launchSpeed": 500,
+    "mission": "ARTEMIS"
+  }
+}
+
+###
+
+POST {{Rockets_Api_HostAddress}}/messages
+Content-Type: application/json
+
+{
+  "metadata": {
+    "channel": "193270a9-c9cf-404a-8f83-838e71d9ae67",
+    "messageNumber": 2,
+    "messageTime": "2022-02-02T19:39:05.86337+01:00",
+    "messageType": "RocketSpeedIncreased"
+  },
+  "message": {
+    "by": 3000
+  }
+}
+
+###
+
+POST {{Rockets_Api_HostAddress}}/messages
+Content-Type: application/json
+
+{
+  "metadata": {
+    "channel": "193270a9-c9cf-404a-8f83-838e71d9ae67",
+    "messageNumber": 4,
+    "messageTime": "2022-02-02T19:39:05.86337+01:00",
+    "messageType": "RocketSpeedDecreased"
+  },
+  "message": {
+    "by": 500
+  }
+}
+
+###
+
+POST {{Rockets_Api_HostAddress}}/messages
+Content-Type: application/json
+
+{
+  "metadata": {
+    "channel": "193270a9-c9cf-404a-8f83-838e71d9ae67",
+    "messageNumber": 3,
+    "messageTime": "2022-02-02T19:39:05.86337+01:00",
+    "messageType": "RocketMissionChanged"
+  },
+  "message": {
+    "newMission": "APOLLO"
+  }
+}
+
+###
+
+@id = 193270a9-c9cf-404a-8f83-838e71d9ae67
+GET {{Rockets_Api_HostAddress}}/rocket/{{id}}
+Accept: application/json
+
+###
+
