@@ -12,7 +12,11 @@ WebApplication app = builder.Build();
 
 app.UseHttpsRedirection();
 
-app.MapPost("/messages", (MessageEnvelope envelope, IMessageHandler handler) => {
+app.MapPost("/messages", (MessageEnvelope? envelope, IMessageHandler handler) => {
+	if (envelope is null) {
+		return Results.BadRequest("Supplied message was invalid");
+	}
+	
 	handler.Handle(envelope);
 	return Results.Ok();
 });
@@ -24,6 +28,13 @@ app.MapGet("/rocket/{id:Guid}", (Guid id, IRocketStateService rocketStateService
 
 app.MapGet("/rockets", (IRocketStateService rocketStateService) => Results.Ok((object?)rocketStateService.GetAll()));
 
-app.MapGet("/health-check", async () => Results.Ok());
+app.MapGet("/health-check", () => {
+	try {
+		return Task.FromResult(Results.Ok());
+	}
+	catch (Exception exception) {
+		return Task.FromResult(Results.BadRequest(exception));
+	}
+});
 
 app.Run();
