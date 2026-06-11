@@ -1,0 +1,212 @@
+﻿GET http://localhost:5246/rocket/193270a9-c9cf-404a-8f83-838e71d9ae67
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-06-11T201409.200.json
+
+###
+
+POST http://localhost:5246/messages
+Content-Type: application/json
+Content-Length: 245
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "metadata": {
+    "channel": "193270a9-c9cf-404a-8f83-838e71d9ae67",
+    "messageNumber": 3,
+    "messageTime": "2022-02-02T19:39:05.86337+01:00",
+    "messageType": "RocketMissionChanged"
+  },
+  "message": {
+    "newMission": "APOLLO"
+  }
+}
+
+###
+
+GET http://localhost:5246/rocket/193270a9-c9cf-404a-8f83-838e71d9ae67
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-06-11T201404.200.json
+
+###
+
+POST http://localhost:5246/messages
+Content-Type: application/json
+Content-Length: 232
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "metadata": {
+    "channel": "193270a9-c9cf-404a-8f83-838e71d9ae67",
+    "messageNumber": 4,
+    "messageTime": "2022-02-02T19:39:05.86337+01:00",
+    "messageType": "RocketSpeedDecreased"
+  },
+  "message": {
+    "by": 500
+  }
+}
+
+###
+
+GET http://localhost:5246/rocket/193270a9-c9cf-404a-8f83-838e71d9ae67
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-06-11T201213.200.json
+
+###
+
+POST http://localhost:5246/messages
+Content-Type: application/json
+Content-Length: 232
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "metadata": {
+    "channel": "193270a9-c9cf-404a-8f83-838e71d9ae67",
+    "messageNumber": 4,
+    "messageTime": "2022-02-02T19:39:05.86337+01:00",
+    "messageType": "RocketSpeedDecreased"
+  },
+  "message": {
+    "by": 500
+  }
+}
+
+###
+
+GET http://localhost:5246/rocket/193270a9-c9cf-404a-8f83-838e71d9ae67
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-06-11T200851.200.json
+
+###
+
+POST http://localhost:5246/messages
+Content-Type: application/json
+Content-Length: 233
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "metadata": {
+    "channel": "193270a9-c9cf-404a-8f83-838e71d9ae67",
+    "messageNumber": 2,
+    "messageTime": "2022-02-02T19:39:05.86337+01:00",
+    "messageType": "RocketSpeedIncreased"
+  },
+  "message": {
+    "by": 3000
+  }
+}
+
+###
+
+GET http://localhost:5246/rocket/193270a9-c9cf-404a-8f83-838e71d9ae67
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-06-11T200834.200.json
+
+###
+
+POST http://localhost:5246/messages
+Content-Type: application/json
+Content-Length: 233
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "metadata": {
+    "channel": "193270a9-c9cf-404a-8f83-838e71d9ae67",
+    "messageNumber": 1,
+    "messageTime": "2022-02-02T19:39:05.86337+01:00",
+    "messageType": "RocketSpeedIncreased"
+  },
+  "message": {
+    "by": 3000
+  }
+}
+
+###
+
+GET http://localhost:5246/rocket/193270a9-c9cf-404a-8f83-838e71d9ae67
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-06-11T200827.200.json
+
+###
+
+GET http://localhost:5246/rocket/193270a9-c9cf-404a-8f83-838e71d9ae67
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-06-11T200722.200.json
+
+###
+
+POST http://localhost:5246/messages
+Content-Type: application/json
+Content-Length: 285
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "metadata": {
+    "channel": "193270a9-c9cf-404a-8f83-838e71d9ae67",
+    "messageNumber": 1,
+    "messageTime": "2022-02-02T19:39:05.86337+01:00",
+    "messageType": "RocketLaunched"
+  },
+  "message": {
+    "type": "Falcon-9",
+    "launchSpeed": 500,
+    "mission": "ARTEMIS"
+  }
+}
+
+###
+
+GET http://localhost:5246/rocket/193270a9-c9cf-404a-8f83-838e71d9ae67
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:5246/rocket/bf1e2b5e-7279-4dc1-8f88-2ef6e27d52a8
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:5246/health-check
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
