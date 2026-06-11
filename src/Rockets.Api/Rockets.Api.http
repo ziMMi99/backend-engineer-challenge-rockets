@@ -10,7 +10,7 @@ Content-Type: application/json
 
 {
   "metadata": {
-    "channel": "193270a9-c9cf-404a-8f83-838e71d9ae67",
+    "channel": "193270a9-c9cf-404a-8f23-838e71d9ae67",
     "messageNumber": 1,
     "messageTime": "2022-02-02T19:39:05.86337+01:00",
     "messageType": "RocketLaunched"
@@ -75,9 +75,11 @@ Content-Type: application/json
 
 ###
 
-@id = 193270a9-c9cf-404a-8f83-838e71d9ae67
+@id = 193270a9-c9cf-404a-8f84-838e71d9ae67
 GET {{Rockets_Api_HostAddress}}/rocket/{{id}}
 Accept: application/json
 
 ###
 
+GET {{Rockets_Api_HostAddress}}/rockets
+Accept: application/json

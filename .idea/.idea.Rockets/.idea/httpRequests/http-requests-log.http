@@ -1,4 +1,102 @@
-﻿GET http://localhost:5246/rocket/193270a9-c9cf-404a-8f83-838e71d9ae67
+﻿GET http://localhost:5246/rocket/193270a9-c9cf-404a-8f84-838e71d9ae67
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:5246/rockets
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-06-11T210850.200.json
+
+###
+
+POST http://localhost:5246/messages
+Content-Type: application/json
+Content-Length: 285
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "metadata": {
+    "channel": "193270a9-c9cf-404a-8f23-838e71d9ae67",
+    "messageNumber": 1,
+    "messageTime": "2022-02-02T19:39:05.86337+01:00",
+    "messageType": "RocketLaunched"
+  },
+  "message": {
+    "type": "Falcon-9",
+    "launchSpeed": 500,
+    "mission": "ARTEMIS"
+  }
+}
+
+###
+
+GET http://localhost:5246/rockets
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-06-11T210836.200.json
+
+###
+
+GET http://localhost:5246/rockets
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-06-11T210830.200.json
+
+###
+
+GET http://localhost:5246/rocket/193270a9-c9cf-404a-8f83-838e71d9ae67
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-06-11T210828.200.json
+
+###
+
+POST http://localhost:5246/messages
+Content-Type: application/json
+Content-Length: 285
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "metadata": {
+    "channel": "193270a9-c9cf-404a-8f83-838e71d9ae67",
+    "messageNumber": 1,
+    "messageTime": "2022-02-02T19:39:05.86337+01:00",
+    "messageType": "RocketLaunched"
+  },
+  "message": {
+    "type": "Falcon-9",
+    "launchSpeed": 500,
+    "mission": "ARTEMIS"
+  }
+}
+
+###
+
+GET http://localhost:5246/rockets
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-06-11T210819.200.json
+
+###
+
+GET http://localhost:5246/rocket/193270a9-c9cf-404a-8f83-838e71d9ae67
 Accept: application/json
 User-Agent: IntelliJ HTTP Client/JetBrains Rider 2026.1.1
 Accept-Encoding: br, deflate, gzip, x-gzip
